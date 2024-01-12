@@ -1,0 +1,24 @@
+{
+  "name": "dailydietapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "npx tsx --no-warnings ./node_modules/knex/bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "fastify": "^4.25.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7",
+    "tsx": "^4.7.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0"
+  }
+}
